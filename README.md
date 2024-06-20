@@ -17,5 +17,5 @@ Technical: Java, Javascript,Spring Boot, html, css
 Databases: MySQL, MongoDB
 
 
-Development Tools: GitHub, GitLab, VS Code, IntelliJ, Spring Boot, Jira, MobaXterm, Postman, MySQL Workbench, Swagger
+Development Tools: GitHub, GitLab, VS Code, IntelliJ, Jira, MobaXterm, Postman, MySQL Workbench, Swagger
 
