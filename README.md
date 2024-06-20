@@ -1,6 +1,6 @@
-# Portfolio
+# My Portfolio Website
 
-This repository showcases my journey as a software developer, where I have been actively involved in various projects and collaborations. I am excited to share my work with you and highlight my skills and accomplishments.
+This repository showcases my journey as a junior software developer, where I have been actively involved in various projects. I am excited to share my work with you and highlight my skills and accomplishments. My goal is to provide a comprehensive overview of my capabilities and the value I can bring to potential employers or clients.
 
 
 
@@ -11,20 +11,11 @@ Projects
 Skills
 
 
-Programming Languages: Proficient in JavaScript, Java, MySQL, html, css
+Technical: Java, Javascript,Spring Boot, html, css
 
 
-Tools and Technologies: Experienced with Spring boot.
+Databases: MySQL, MongoDB
 
 
+Development Tools: GitHub, GitLab, VS Code, IntelliJ, Spring Boot, Jira, MobaXterm, Postman, MySQL Workbench, Swagger
 
-Contact
-
-
-Email:
-
-
-LinkedIn: 
-
-
-GitHub: https://github.com/re-sha
