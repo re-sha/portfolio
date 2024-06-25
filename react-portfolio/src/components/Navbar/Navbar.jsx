@@ -2,12 +2,12 @@ import React, {useState} from "react";
 import styles from "./Navbar.module.css";
 import {getImageFromUrl} from "../../utils";
 
-const Navbar = () => {
+export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <nav className={styles.navbar}>
-      <a className={styles.title} href="/">Portfolio</a>
+      <a className={styles.title} href="/">Portfolio.</a>
       <div className={styles.menu}>
         <img 
           className={styles.menuBtn} 
@@ -41,4 +41,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+ 
