@@ -4,41 +4,46 @@ import { getImageFromUrl } from "../../utils";
 
 export const About = () => {
   return (
-    <section>
-      <h2>ABOUT</h2>
-      <div>
-        <img 
+    <section className={styles.container} id = "about"> 
+      <h2 className={styles.title}>ABOUT</h2>
+      <div className={styles.content}>
+        <img className={styles.aboutImage}
           src = {getImageFromUrl("about/aboutImage.png")} 
           alt = "Image of software developer with a laptop"
         />
-        <ul>
-          <li>
+        <ul className={styles.aboutItems}>
+          <li className={styles.aboutItem}>
             <img 
               src = {getImageFromUrl("about/serverIcon.png")}
               alt = "server Icon"
             />
-            <h3>Microservices</h3>
-            <p> I have extensive experience in developing and maintaining multiple microservices using Spring Boot and Java. I have created RESTful endpoints, collaborated with teams to design and implement features, and utilized debugging tools to identify and fix errors, troubleshoot issues, and ensure timely resolution</p>
+            <div className={styles.aboutItemText}>
+              <h3>Microservices</h3>
+              <p> I have developed microservices using Spring Boot and Java, have created RESTful endpoints and utilized debugging tools to identify and fix errors</p>
+            </div>
           </li>
 
-          <li>
+          <li className={styles.aboutItem}>
             <img 
               src = {getImageFromUrl("about/cursorIcon.png")}
               alt = "cursor Icon"
             />
-            <h3>Frontend Developer</h3>
-            <p>I'm also a front-end developer with experience in building responsive and optimised websites</p>
+            <div className={styles.aboutItemText}>
+              <h3>Frontend Developer</h3>
+              <p>I'm also a front-end developer with experience in building responsive and optimised websites</p>
+            </div>
           </li>
 
-          <li>
+          <li className={styles.aboutItem}>
             <img 
               src = {getImageFromUrl("about/serverIcon.png")}
               alt = "server Icon"
             />
-            <h3>Backend Developer</h3>
-            <p> I have experience developing APIs and back-end systems </p>
+            <div className={styles.aboutItemText}>
+              <h3>Backend Developer</h3>
+              <p> I have experience developing APIs and back-end systems </p>
+            </div>
           </li>
-            
         </ul>
       </div>
     </section>
