@@ -1,0 +1,10 @@
+[
+    {
+      "role": "Software Engineer",
+      "organisation": "Bank",
+      "startDate": "Sept, 2023",
+      "endDate": "Jan, 2024",
+      "experiences": ["Worked on developing microservices for bank documents", "Collaborated with cross-functional teams to design and implement new features"],
+      "imageSrc": "history/bank.png"
+    }
+  ]
