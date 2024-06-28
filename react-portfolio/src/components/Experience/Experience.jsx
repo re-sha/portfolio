@@ -7,14 +7,14 @@ import {getImageFromUrl} from "../../utils"
 
 export const Experience = () => {
   return (
-  <section id = "experience">
-    <h2>Experience</h2>
-    <div>
-        <div>{
+  <section className={styles.container} id = "experience">
+    <h2 className={styles.title}>Experience</h2>
+    <div className={styles.content}>
+        <div className={styles.skills}>{
             skills.map((skill, id) => {
                 return (
-                    <div key={id}>
-                        <div>
+                    <div key={id} className={styles.skill}>
+                        <div className={styles.skillImageContainer}>
                             <img 
                              src = {getImageFromUrl(skill.imageSrc)} 
                              alt = {skill.title} 
@@ -25,15 +25,15 @@ export const Experience = () => {
                 );
             })
         }</div>
-        <ul>
+        <ul className={styles.history}>
            { histories.map((history, id) => {
                 return (
-                    <li key = {id}>
+                    <li key = {id} className={styles.historyItem}>
                         <img 
                          src={getImageFromUrl(history.imageSrc)} 
                          alt={`${history.organisation} Logo`} 
                         />
-                        <div>
+                        <div className={styles.historyItemDetails}>
                             <h3>{`${history.role}, ${history.organisation}`}</h3>
                             <p>{`${history.startDate} - ${history.endDate}`}</p>
                             <li>
