@@ -54,7 +54,6 @@
 .heroImg {
     width: 50%;
     z-index: 1;
-    border-radius: 100%;
 
     animation-name: floating;
     animation-duration: 3s;
@@ -79,7 +78,7 @@
     width: 50vw;
     height: 50vw;
     min-width: 350px;
-    min-height: 350px;
+    min-width: 350px;
     top: -128px;
     left: -10vw;
     border-radius: 764px;
@@ -93,7 +92,7 @@
     width: 70vw;
     height: 50vw;
     min-width: 350px;
-    min-height: 250px;
+    min-width: 250px;
     top: 246px;
     right: -25vw;
     border-radius: 764px;
@@ -107,6 +106,6 @@
         flex-direction: column-reverse;
     }
     .content {
-        align-content: center;
+        align-items: center;
     }
 }

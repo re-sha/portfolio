@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import styles from "./Navbar.module.css";
 import {getImageFromUrl} from "../../utils";
 
