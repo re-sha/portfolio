@@ -5,7 +5,7 @@ import { getImageFromUrl } from "../../utils";
 export const About = () => {
   return (
     <section className={styles.container} id = "about"> 
-      <h2 className={styles.title}>ABOUT</h2>
+      <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
         <img className={styles.aboutImage}
           src = {getImageFromUrl("about/aboutImage.png")} 
@@ -19,7 +19,7 @@ export const About = () => {
             />
             <div className={styles.aboutItemText}>
               <h3>Microservices</h3>
-              <p> I have developed microservices using Spring Boot and Java, have created RESTful endpoints and utilized debugging tools to identify and fix errors</p>
+              <p> I have developed and maintained microservices using Spring Boot and Java</p>
             </div>
           </li>
 
