@@ -18,8 +18,8 @@ export const About = () => {
               alt = "server Icon"
             />
             <div className={styles.aboutItemText}>
-              <h3>Microservices</h3>
-              <p> I have developed and maintained microservices using Spring Boot and Java</p>
+              <h3>Microservices Developer</h3>
+              <p>Developed and maintained Spring Boot Microservices</p>
             </div>
           </li>
 
@@ -30,7 +30,7 @@ export const About = () => {
             />
             <div className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
-              <p>I'm also a front-end developer with experience in building responsive and optimised websites</p>
+              <p>Experience in building responsive and optimised websites</p>
             </div>
           </li>
 
