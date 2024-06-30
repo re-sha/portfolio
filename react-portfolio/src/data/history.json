@@ -1,10 +1,10 @@
 [
     {
-      "role": "Software Engineer",
+      "role": "Microservices Developer",
       "organisation": "Bank",
-      "startDate": "Sept, 2023",
-      "endDate": "Jan, 2024",
-      "experiences": ["Worked on developing microservices for bank documents", "Collaborated with cross-functional teams to design and implement new features"],
+      "startDate": "Sept 2023",
+      "endDate": "Jan 2024",
+      "experiences": ["Developed microservices ", "Manipulated and retrieved \tbank documents"],
       "imageSrc": "history/bank.png"
     }
   ]
