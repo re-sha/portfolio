@@ -4,9 +4,10 @@
   position: relative;
   background-color: rgba(12, 12, 12, 0.6);
   border-radius: 15px;
-  padding: 60px;
+  padding: 73px;
   margin-top: 129px;
   z-index: 1;
+  /* margin-top: 10%; */
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -42,7 +43,7 @@
   align-items: center;
   border-radius: 20px;
   list-style: none;
-  padding: 10px;
+  padding: 25px;
   background-image: linear-gradient(
     90deg,
     rgba(165, 215, 232, 0.42) 0%,
@@ -82,7 +83,7 @@
   }
 
   .aboutItems {
-    margin-top: 2px;
+    margin-top: 29px;
   }
 
   .aboutItem {
