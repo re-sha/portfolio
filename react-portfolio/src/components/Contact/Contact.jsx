@@ -1,18 +1,24 @@
 import React from "react";
 import { getImageFromUrl } from "../../utils";
+import styles from "./Contact.module.css";
 
 export const Contact = () => {
   return (
-    <footer>
-        <div>
+    <footer id = "contact" className={styles.container}>
+        <div className={styles.text}>
             <h2>Contact</h2>
-            <p>Feel free to reach out</p>
+            <p>Let's connect.</p>
         </div>
-        <ul>
-            <li>
-                <img  src={getImageFromUrl("contact/githubIcon.png")} alt="Github icon"/>
-                <a href = "mailto:?subject=Portfolio%20Inquiry&body=Hello,%0A%0AI%20came%20across%20your%20portfolio%20website%20and%20would%20like%20to%20connect.%0A%0ABest%20regards,%0A[Your%20Name]">Email me</a>
+        <ul className={styles.links}>
+            <li className={styles.link}>
+                <img  src={getImageFromUrl("contact/linkedinIcon.png")} alt="LinkedIn icon"/>
+                <a href = "https://www.linkedin.com/in/resha/?connectType=message">LinkedIn</a>
             </li>
+            <li className={styles.link}>
+                <img  src={getImageFromUrl("contact/githubIcon.png")} alt="Github icon"/>
+                <a href = "https://github.com/re-sha">GitHub</a>
+            </li>
+            
         </ul>
     </footer>
   );
