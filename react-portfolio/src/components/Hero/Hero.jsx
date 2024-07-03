@@ -8,9 +8,9 @@ export const Hero = () => {
         <div className={styles.content}>
             <h1 className={styles.title}>Hi, Resha Here!</h1>
             <p className={styles.description}>
-              I am a Junior Software Developer who thrives on crafting solutions that are user-friendly.<br></br>When I'm not coding, you can find me sipping on coffee and experimenting with data analysis.
+              I am a Junior Software Developer who thrives on crafting solutions that are user-friendly.<br></br>When I'm not coding, you can find me experimenting with new technologies over a cup of coffee.
             </p>
-            <a href = "mailto:email@email.com" className={styles.contactBtn}>
+            <a href = "https://www.linkedin.com/in/resha/?connectType=message" className={styles.contactBtn}>
                 Contact Me
             </a>
         </div>
