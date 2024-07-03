@@ -2,7 +2,7 @@
     {
       "title": "Portfolio",
       "imageSrc": "projects/project.png",
-      "description": "This is a project showcases my professional skills and experiences",
+      "description": "This project showcases my professional skills and experiences",
       "skills": ["JavaScript","React", "Vite", "HTML", "CSS"],
       "demo": "https://www.example.com",
       "source": "https://github.com/re-sha/portfolio"
