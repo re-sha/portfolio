@@ -1,15 +1,15 @@
 [   
     {
       "title": "Portfolio",
-      "imageSrc": "projects/project.png",
-      "description": "This project showcases my professional skills and experiences",
-      "skills": ["JavaScript","React", "Vite", "HTML", "CSS"],
+      "imageSrc": "projects/portfolio.png",
+      "description": "This project showcases my professional experiences, array of projects, skills and so on.",
+      "skills": ["JavaScript","React", "HTML", "CSS"],
       "demo": "https://www.example.com",
       "source": "https://github.com/re-sha/portfolio"
     },
     {
       "title": "Qatar Airlines",
-      "imageSrc": "projects/project.png",
+      "imageSrc": "projects/airlines.png",
       "description": "This project creates a professional Dental Clinic landing page with a minimalistic layout.",
       "skills": ["JavaScript", "HTML", "CSS"],
       "demo": "https://re-sha.github.io/airlines-reservation/",
@@ -17,9 +17,9 @@
     },
     {
       "title": "The Dental Studio",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["HTML", "CSS"],
+      "imageSrc": "projects/dental-clinic.png",
+      "description": "This project is a landing page for a dental clinic that illustrates services, reviews and so on.",
+      "skills": ["HTML", "CSS", "minimalistic"],
       "demo": "https://re-sha.github.io/landing-page/",
       "source": "https://www.github.com"
     }
