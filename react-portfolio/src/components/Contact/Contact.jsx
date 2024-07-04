@@ -1,10 +1,9 @@
-import React from "react";
 import { getImageFromUrl } from "../../utils";
 import styles from "./Contact.module.css";
 
 export const Contact = () => {
   return (
-    <footer id = "contact" className={styles.container}>
+    <footer id="contact" className={styles.container}>
         <div className={styles.text}>
             <h2>Contact</h2>
             <p>Let&apos;s connect.</p>
