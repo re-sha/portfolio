@@ -4,7 +4,7 @@
       "imageSrc": "projects/portfolio.png",
       "description": "This project showcases my professional experiences, array of projects, skills and so on.",
       "skills": ["JavaScript","React", "HTML", "CSS"],
-      "demo": "https://www.example.com",
+      "demo": "https://resha-portfolio.vercel.app/",
       "source": "https://github.com/re-sha/portfolio"
     },
     {
