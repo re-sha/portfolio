@@ -10,7 +10,7 @@
     {
       "title": "Qatar Airlines",
       "imageSrc": "projects/airlines.png",
-      "description": "Built an interactive flight booking app with dynamic data, modals, validation, and event handling.",
+      "description": "Built an interactive flight booking site with dynamic data, modals, validation, and event handling.",
       "skills": ["JavaScript", "HTML", "CSS"],
       "demo": "https://re-sha.github.io/airlines-reservation/",
       "source": "https://github.com/re-sha/airlines-reservation"
