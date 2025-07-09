@@ -11,7 +11,7 @@ Projects
 Skills
 
 
-Technical: Java, Javascript, Spring Boot, React, html, css
+Technical: React, html, css
 
 
 Databases: MySQL, MongoDB
